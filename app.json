@@ -1,0 +1,21 @@
+{
+    "name": "Nick-Md-Mini",
+    "description": "mini web bot",
+    "logo": "https://image-link.edgeone.app/1780411587659-7kxu9b.jpg",
+    "repository": "https://github.com/nick-md-bot/nick-md-mini",
+    
+    "keywords": [
+    "nick-xd","nick-mini"
+    ],
+    
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/render/render-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
+}
